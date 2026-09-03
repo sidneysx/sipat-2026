@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div id="login">
+      <img
+        class="img-login"
+        src="../assets/css/fotos/dpl-a.png"
+        alt="DPL Construções"
+      />
+      <form id="loginForm" onsubmit="validateLogin(event)">
+        <input type="text" id="username" placeholder="Usuário" required />
+        <input type="password" id="password" placeholder="Senha" required />
+        <button type="submit">Entrar</button><br />
+
+      </form>
+    </div>
+    <footer>
+      <div>
+        <span id="copyright">&copy; 2026 DPL Construções</span>
+      </div>
+    </footer>
+
+    <script src="../assets/script/login.js"></script>
+  </body>
+</html>

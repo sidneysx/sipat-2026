@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: #fff;
+  --bg-mob: url(./fotos/fundo-mobile.jpg);
+  --stok-color: rgba(255, 255, 255, 0.5);
+  --fundo-color: rgba(255, 255, 255, 0.05);
+  --fundo-color-hover: rgba(0, 0, 0, 0.02);
+  --social-color: rgba(255, 255, 255, 0.2);
+}
+
+body {
+  background: var(--bg-mob) no-repeat top center/cover;
+  min-height: 100vh;
+  min-height: 100svh;
+  padding-bottom: 72px;
+}
+
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+  color: var(--text-color);
+}
+
+#container {
+  width: 100%;
+  max-width: 588px;
+  margin: 0 auto;
+  padding: clamp(40px, 12vh, 140px) 24px 24px;
+  position: relative;
+}
+
+#container h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #29257d;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 0;
+}
+
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  background: rgba(41, 37, 125, 0.58);
+  border: 1px solid var(--stok-color);
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 650;
+  transition: background 0.4s, border 0.4s;
+}
+
+ul li a ion-icon {
+  margin-right: 10px;
+  font-size: 1.2em;
+  color: #29257d;
+}
+
+ul li a:hover {
+  background: rgba(41, 37, 125, 0.78);
+  border: 1.5px solid var(--text-color);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #29257d;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  isolation: isolate;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ffd700;
+}
+
+footer i {
+  font-size: 24px;
+}
+
+@media (max-width: 699px) {
+  #container {
+    padding-top: clamp(210px, 28vh, 260px);
+  }
+}
+
+@media (min-width: 700px) {
+  :root {
+    --bg-mob: url(./fotos/bg-desktop.jpeg);
+  }
+}
+
+
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
+}
