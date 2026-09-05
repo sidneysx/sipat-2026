@@ -61,7 +61,7 @@ body * {
   align-items: center;
   gap: 12px;
   padding: 16px;
-  background: rgba(41, 37, 125, 0.58);
+  background: rgba(111, 75, 143, 0.58);
   border: 1px solid var(--stok-color);
   border-radius: 8px;
 }
@@ -70,8 +70,8 @@ body * {
   width: min(100%, 560px);
   aspect-ratio: 16 / 9;
   height: auto;
-  background: rgba(41, 37, 125, 0.4);
-  border: 2px solid rgba(41, 37, 125, 0.78);
+  background: rgba(111, 75, 143, 0.4);
+  border: 2px solid rgba(111, 75, 143, 0.78);
   border-radius: 8px;
 }
 
@@ -79,7 +79,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #29257d;
+  background-color: #6f4b8f;
   padding: 12px;
   text-align: center;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);

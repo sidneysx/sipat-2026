@@ -113,7 +113,7 @@ ul li a {
   justify-content: center;
   padding: 16px 24px;
 
-  background: rgba(41, 37, 125, 0.78);
+  background: rgba(111, 75, 143, 0.78);
   border: 1px solid var(--stok-color);
   border-radius: 8px;
   -webkit-animation-backdrop-filter: blur(4px);
@@ -129,7 +129,7 @@ ul li a ion-icon {
 }
 
 ul li a:hover {
-  background: rgba(41, 37, 125, 0.95);
+  background: rgba(111, 75, 143, 0.95);
   border: 1.5px solid var(--text-color);
 }
 
@@ -168,7 +168,7 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: #29257d;
+  background: #6f4b8f;
   padding: 12px;
   text-align: center;
   font-size: 14px;

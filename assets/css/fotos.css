@@ -45,7 +45,7 @@ body * {
 #container h1 {
   text-align: center;
   margin-bottom: 24px;
-  color: #29257d;
+  color: #6f4b8f;
 }
 
 ul {
@@ -61,7 +61,7 @@ ul li a {
   align-items: center;
   justify-content: center;
   padding: 16px 24px;
-  background: rgba(41, 37, 125, 0.58);
+  background: rgba(111, 75, 143, 0.58);
   border: 1px solid var(--stok-color);
   border-radius: 8px;
   text-decoration: none;
@@ -72,11 +72,11 @@ ul li a {
 ul li a ion-icon {
   margin-right: 10px;
   font-size: 1.2em;
-  color: #29257d;
+  color: #6f4b8f;
 }
 
 ul li a:hover {
-  background: rgba(41, 37, 125, 0.78);
+  background: rgba(111, 75, 143, 0.78);
   border: 1.5px solid var(--text-color);
 }
 
@@ -84,7 +84,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #29257d;
+  background-color: #6f4b8f;
   padding: 12px;
   text-align: center;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
